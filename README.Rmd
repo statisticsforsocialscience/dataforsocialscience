@@ -9,7 +9,8 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "100%",
+  fig.retina = 2
 )
 library(tidyverse)
 ```
@@ -19,7 +20,7 @@ The goal of dataforsocialscience is to bundle a set of data sets that are useful
 
 ## Installation
 
-You can install the current version of dataforsocialscience from github:
+You can install the current version of dataforsocialscience from github as follows:
 
 ```r
 if(!require(devtools)){

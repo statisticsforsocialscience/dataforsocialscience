@@ -8,7 +8,8 @@ are useful for teaching statistics in a social science field.
 
 ## Installation
 
-You can install the current version of dataforsocialscience from github:
+You can install the current version of dataforsocialscience from github
+as follows:
 
 ``` r
 if(!require(devtools)){
