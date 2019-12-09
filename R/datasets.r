@@ -35,3 +35,37 @@
 #' \donttest{ggplot(robo_care) + aes(cse, robot_care_pref) +
 #'        geom_jitter(width = 0.1, height = 0, alpha = 0.5)}
 "robo_care"
+
+
+
+
+#' A dataset containing artificial data to demonstrate variance of analysis visually
+#'
+#' This data set contains the completely faked data on phone usage. It has nice properties for variance analyses.
+#'
+#'
+#' @docType data
+#'
+#' @usage data(anova_phone)
+#'
+#' @format An object of class \code{"data.frame"}
+#' \describe{
+#'  \item{whatsapp}{How many whatsapp messages a user sends}
+#'  \item{textmessage}{How many text messages a users sends}
+#'  \item{phone}{What type of phone the user uses.}
+#'  \item{user}{The user name.}
+#'  \item{gender}{The gender of the user}
+#'  \item{age}{The age of the user.}
+#' }
+#' @keywords datasets
+#'
+#' @source Data was self generated.
+#'
+#'
+#' @examples
+#' library(ggplot2)
+#' \donttest{ggplot(anova_phone) + aes(phone, whatsapp, color = phone) +
+#'        geom_point()}
+"anova_phone"
+
+

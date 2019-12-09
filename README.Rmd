@@ -32,6 +32,8 @@ devtools::install_github("statisticsforsocialscience/dataforsocialscience")
 
 These are the datasets contained in this package.
 
+### Robot care
+
 ```{r example}
 library(tidyverse)
 library(dataforsocialscience)
@@ -47,3 +49,22 @@ robo_care %>%
   labs(color = "Gender")
 
 ```
+
+
+### Phone usage
+```{r example phone}
+data("anova_phone")
+ggplot(anova_phone) + 
+  aes(phone, whatsapp, color = phone) +
+  geom_point() +
+  ggtitle("Sum of Squares within") +
+  scale_y_continuous("Whatsapp messages per day", breaks = 1:10) +
+  geom_line(data = data.frame(x=c(0.6,1.4), y=c(2.0,2.0)), aes(x,y), inherit.aes = FALSE, size=1, color = 2) +
+  geom_label(label="M1", x=1.3, y=2.3, inherit.aes = FALSE, size=6) +
+  geom_line(data = data.frame(x=c(1.6,2.4), y=c(5.0,5.0)), aes(x,y), inherit.aes = FALSE, size=1, color = 3) +
+  geom_label(label="M2", x=2.3, y=5.3, inherit.aes = FALSE, size=6) +
+  geom_line(data = data.frame(x=c(2.6,3.4), y=c(8.0,8.0)), aes(x,y), inherit.aes = FALSE, size=1, color = 4) +
+  geom_label(label="M3", x=3.3, y=8.3, inherit.aes = FALSE, size=6)
+
+```
+
