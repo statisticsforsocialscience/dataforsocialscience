@@ -11,14 +11,15 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+library(tidyverse)
 ```
 # Dataforsocialscience
 
-The goal of dataforsocialscience is to ...
+The goal of dataforsocialscience is to bundle a set of data sets that are useful for teaching statistics in a social science field.
 
 ## Installation
 
-You can install the released version of dataforsocialscience from [CRAN](https://CRAN.R-project.org) with:
+You can install the current version of dataforsocialscience from github:
 
 ```r
 if(!require(devtools)){
@@ -27,10 +28,22 @@ if(!require(devtools)){
 devtools::install_github("statisticsforsocialscience/dataforsocialscience")
 ```
 
-## Example
+## Example data sets
 
-This is a basic example which shows you how to solve a common problem:
+These are the datasets contained in this package.
 
 ```{r example}
-## basic example code
+library(tidyverse)
+library(dataforsocialscience)
+
+robo_care %>% names()
+robo_care %>% 
+  ggplot() + 
+  aes(cse, y = robo_bed, color = gender) + 
+  geom_jitter(width = 0.2, height = 0.2, alpha = 0.8) +
+  geom_smooth(method = "lm") +
+  scale_x_continuous("Computer Self-Efficacy", breaks = 1:6) +
+  scale_y_continuous("Would you accept that a robot brings you to bed?", breaks = 1:6) +
+  labs(color = "Gender")
+
 ```

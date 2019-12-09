@@ -1,12 +1,19 @@
 Package: dataforsocialscience
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: This is a collection of data sets for social science studies
+Version: 0.0.2.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "André",
+           family = "Calero Valdez",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "andrecalerovaldez@gmail.com")
+Description: The goal of dataforsocialscience is to bundle a set of data sets that are useful for teaching statistics in a social science field.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 2.10)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    tibble,
+    ggplot2,
+    magrittr
