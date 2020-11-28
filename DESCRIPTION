@@ -1,6 +1,6 @@
 Package: dataforsocialscience
 Title: This is a collection of data sets for social science studies
-Version: 0.0.2.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "André",
            family = "Calero Valdez",
