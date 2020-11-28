@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
   fig.retina = 2
 )
 library(tidyverse)
+library(patchwork)
 ```
 # Dataforsocialscience
 
@@ -53,7 +54,7 @@ robo_care %>%
 
 
 ### Phone usage
-```{r example phone}
+```{r example_phone}
 data("anova_phone")
 ggplot(anova_phone) + 
   aes(phone, whatsapp, color = phone) +
@@ -67,5 +68,23 @@ ggplot(anova_phone) +
   geom_line(data = data.frame(x=c(2.6,3.4), y=c(8.0,8.0)), aes(x,y), inherit.aes = FALSE, size=1, color = 4) +
   geom_label(label="M3", x=3.3, y=8.3, inherit.aes = FALSE, size=6)
 
+```
+
+### Simpson Paradox
+
+```{r simpson}
+p1 <- simpson_paradox %>% 
+  ggplot() + 
+  aes(x = V2, y = V1, color = group) + 
+  geom_point() + 
+  geom_smooth(method = "lm")
+
+p2 <- simpson_paradox %>% 
+  ggplot() + 
+  aes(x = V2, y = V1) + 
+  geom_point() + 
+  geom_smooth(method = "lm")
+
+p2 + p1 + patchwork::plot_annotation(title = "Demonstrating the Simpson Paradox")
 ```
 

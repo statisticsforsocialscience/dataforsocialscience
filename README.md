@@ -32,12 +32,12 @@ robo_care %>% names()
 #>  [1] "age"                 "gender"              "job_type"           
 #>  [4] "robo_bed"            "robo_food"           "robo_med"           
 #>  [7] "robo_body"           "robo_hair_wash"      "robo_mass"          
-#> [10] "robo_bath"           "robo_wash"           "robo_toilett"       
-#> [13] "robot_face"          "robo_hair_cut"       "human_bed"          
+#> [10] "robo_bath"           "robo_wash"           "robo_toilet"        
+#> [13] "robo_face"           "robo_hair_cut"       "human_bed"          
 #> [16] "human_food"          "human_med"           "human_body"         
 #> [19] "human_hair_wash"     "human_mass"          "human_bath"         
 #> [22] "human_wash"          "human_toilet"        "human_face"         
-#> [25] "human_hair_cut"      "human_care_pref"     "robot_care_pref"    
+#> [25] "human_hair_cut"      "care_pref_human"     "care_pref_robo"     
 #> [28] "cse"                 "diff_pref"           "technical_knowledge"
 #> [31] "privacy_concerns"    "automation_tendency" "care_experience"
 robo_care %>% 
@@ -48,6 +48,7 @@ robo_care %>%
   scale_x_continuous("Computer Self-Efficacy", breaks = 1:6) +
   scale_y_continuous("Would you accept that a robot brings you to bed?", breaks = 1:6) +
   labs(color = "Gender")
+#> `geom_smooth()` using formula 'y ~ x'
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
@@ -69,4 +70,26 @@ ggplot(anova_phone) +
   geom_label(label="M3", x=3.3, y=8.3, inherit.aes = FALSE, size=6)
 ```
 
-<img src="man/figures/README-example phone-1.png" width="100%" />
+<img src="man/figures/README-example_phone-1.png" width="100%" />
+
+### Simpson Paradox
+
+``` r
+p1 <- simpson_paradox %>% 
+  ggplot() + 
+  aes(x = V2, y = V1, color = group) + 
+  geom_point() + 
+  geom_smooth(method = "lm")
+
+p2 <- simpson_paradox %>% 
+  ggplot() + 
+  aes(x = V2, y = V1) + 
+  geom_point() + 
+  geom_smooth(method = "lm")
+
+p2 + p1 + patchwork::plot_annotation(title = "Demonstrating the Simpson Paradox")
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+```
+
+<img src="man/figures/README-simpson-1.png" width="100%" />

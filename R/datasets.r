@@ -32,7 +32,7 @@
 #'
 #' @examples
 #' library(ggplot2)
-#' \donttest{ggplot(robo_care) + aes(cse, robot_care_pref) +
+#' \donttest{ggplot(robo_care) + aes(cse, care_pref_robo) +
 #'        geom_jitter(width = 0.1, height = 0, alpha = 0.5)}
 "robo_care"
 
@@ -69,3 +69,46 @@
 "anova_phone"
 
 
+
+#' A raw data set that can be used in training for factor analysis
+#'
+#' The dataset contains variable labels and level labels. Use of the
+#' `to_factor` function from the `labelled` package is highly suggested.
+#'
+#' @docType data
+#'
+#' @usage data(robo_care_raw)
+#'
+#'
+#' @format A data frame with 337 rows and 61 labelled variables:
+#' \describe{
+#'   \item{age}{Age of the participant}
+#'   \item{gender}{Gender of the participant}
+#' }
+#'
+#' @references André Calero Valdez (Eds.) (2017) Akzeptanz autonomer Robotik, Apprimus Aachen
+#' (\href{https://www.apprimus-verlag.de/akzeptanz-autonomer-robotik.html}{Apprimus})
+#'
+#' @source Data was self-collected at the RWTH Aachen University.
+"robo_care_raw"
+
+
+
+#' A data set to demonstrate the simpson paradox
+#'
+#'
+#'
+#' @format A data frame with 2000 rows and 3 variables:
+#' \describe{
+#'   \item{V1}{First Variable}
+#'   \item{V2}{Second Variable}
+#'   \item{group}{Grouping variable}
+#' }
+#'
+#'
+#' @source Data was generated.
+#' @examples
+#' library(ggplot2)
+#' \donttest{ggplot(simpson_paradox ) + aes(x = V2, y = V1) +
+#'        geom_point()}
+"simpson_paradox"

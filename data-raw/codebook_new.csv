@@ -1,0 +1,137 @@
+﻿old_name;label;new_name
+date_created;date_created;date_created
+date_modified;date_modified;date_modified
+q0001;Wie alt sind Sie?;age
+q0002;Bitte geben Sie Ihr Geschlecht an.;gender
+q0003_0001;"""Ich kann ziemlich viele der technischen Probleme, mit denen ich konfrontiert werde, allein lösen.""";KUT1
+q0003_0002;"""Technische Geräte sind oft undurchschaubar und schwer zu beherrschen.""";KUT2
+q0003_0003;"""Es macht mir richtig Spaß, ein technisches Problem zu knacken.""";KUT3
+q0003_0004;"""Weil ich mit bisherigen technischen Problemen gut zurecht gekommen bin, blicke ich auch künftigen technischen Problemen optimistisch entgegen.""";KUT4
+q0003_0005;"""Ich fühle mich technischen Geräten gegenüber so hilflos, dass ich die Finger von ihnen lasse.""";KUT5
+q0003_0006;"""Auch wenn Widerstände auftreten, bearbeite ich ein technisches Problem weiter.""";KUT6
+q0003_0007;"""Wenn ich ein technisches Problem löse, so geschieht es meistens durch Glück.""";KUT7
+q0003_0008;"""Die meisten technischen Probleme sind so kompliziert, dass es wenig Sinn hat, sich mit ihnen auseinander zu setzen.""";KUT8
+q0004;Bitte geben Sie Ihren Berufstand an.;job_type
+q0004_other;In welchem Beruf arbeiten Sie?;
+q0005_0001;"""Schwierige Probleme reizen mich mehr als einfache.""";DIFFPREF1
+q0005_0002;"""Ich suche Aufgaben, die meine Fähigkeiten herausfordern.""";DIFFPREF2
+q0005_0003;"""Gerade schwierige Aufgaben fordern mich heraus.""";DIFFPREF3
+q0005_0004;"""Ich mag es eine schwere Nuss knacken zu müssen.""";DIFFPREF4
+q0005_0005;"""Ich denke hauptsächlich, wenn ich denken muss.""";DIFFPREF5
+q0005_0006;"""Mir reicht es aus die richtige Antwort zu kennen, auch ohne die Gründe dahinter zu kennen.""";DIFFPREF6
+q0005_0007;"""Ich habe viel Erfahrung im Umgang mit neuer Technik.""";TK1
+q0005_0008;"""Ich nutze gerne immer die neuste Technik.""";TK2
+q0005_0009;"""Ich vertraue auf Technik.""";TK3
+q0005_0010;"""Technik funktioniert meistens gut.""";TK4
+q0005_0011;"""Ich bin besorgt, ob mit Daten in unserer Gesellschaft vorsichtig umgegangen wird.""";PRIVCON1
+q0005_0012;"""Ich finde, mit Daten sollte vorsichtiger umgegangen werden.""";PRIVCON2
+q0005_0013;"""Technik stellt im Allgemeinen einen guten Datenschutz sicher.""";PRIVCON3
+q0005_0014;"""Datenschutz wird in Technik häufig schlecht sicher gestellt.""";PRIVCON4
+q0005_0015;"""Ich finde viel mehr Dinge könnten im Leben automatisiert werden.""";AUTOT1
+q0005_0016;"""Ich bin gegen die Automatisierung sämtlicher Prozesse.""";AUTOT2
+q0006_0001;In meiner Familie gibt es Personen, die auf häusliche Pflege angewiesen sind.;CAREX1
+q0006_0002;In meinem weiteren Umfeld gibt es Personen, die auf häusliche Pflege angewiesen sind.;CAREX2
+q0006_0003;Ich habe Erfahrung in der Pflege von körperlich beeinträchtigten Menschen.;CAREX3
+q0006_0004;Ich war schon einmal auf körperliche Pflege angewiesen.;CAREX4
+q0007_0001;Ich sehe es als Problem, dass der Roboter mit einer Kamera ausgestattet ist.;CAMCON1
+q0007_0002;Durch die ständige Gesichtserkennung des Roboters fühle ich mich beobachtet.;CAMCON2
+q0007_0003;Weil der Roboter über die Fähigkeit zur Ton- und Videoaufzeichnung verfügt, arbeite ich sorgfältiger und schneller.;CAMCON3
+q0007_0004;Ich fühle mich unwohl, weil der Roboter ständig Ton- und Videoaufzeichnungen macht.;CAMCON4
+q0008_0001;Die gesammelten Daten dürfen zur objektiven Bewertung meiner Leistung verwendet werden.;
+q0008_0002;Ich habe Bedenken, dass die aufgezeichneten Daten durch Sicherheitslücken unbefugten Personen zugänglich werden.;
+q0008_0003;Durch die Aufzeichnung des Roboters wird gute Arbeit besser erkennbar.;
+q0008_0004;Die Anonymisierung der aufgezeichneten Daten ist für mich eine wichtige Voraussetzung für den Einsatz von Robotern.;
+q0009_0001;Die kooperative Arbeit mit einem Roboter würde mir vermutlich Probleme bereiten.;
+q0009_0002;Der zusätzliche Bedienaufwand des Roboters würde meine Arbeit erschweren.;
+q0009_0003;Ich würde einen derartigen Roboter in meinem Arbeitsalltag nutzen wollen.;
+q0010_0001;Hilfe beim Einsteigen ins Bett;robo_bed
+q0010_0002;Nahrungsaufnahme (Füttern lassen);robo_food
+q0010_0003;Medikamentengabe;robo_med
+q0010_0004;Körper eincremen;robo_body
+q0010_0005;Haare waschen;robo_hair
+q0010_0006;Massieren;robo_mass
+q0010_0007;Ein- und Ausstieg aus der Badewanne;robo_bath
+q0010_0008;Waschen;robo_wash
+q0010_0009;Hilfe beim Toilettengang;robo_toilet
+q0010_0010;Gesicht eincremen;robo_face
+q0010_0011;Haare kämmen und schneiden;robo_haircut
+q0011_0001;Hilfe beim Einsteigen ins Bett;human_bed
+q0011_0002;Nahrungsaufnahme (Füttern lassen);human_food
+q0011_0003;Medikamentengabe;human_med
+q0011_0004;Körper eincremen;human_body
+q0011_0005;Haare waschen;human_hair
+q0011_0006;Massieren;human_mass
+q0011_0007;Ein- und Ausstieg aus der Badewanne;human_bath
+q0011_0008;Waschen;human_wash
+q0011_0009;Hilfe beim Toilettengang;human_toilet
+q0011_0010;Gesicht eincremen;human_face
+q0011_0011;Haare kämmen und schneiden;human_haircut
+q0012_0001;Die Umarmung eines menschlichen Pflegers spendet mir Trost.;solace_human
+q0012_0002;Die Umarmung eines Roboters spendet mir Trost.;solace_robot
+q0013_0001;Die künstliche Intelligenz erkennt Ihre Erschöpfung und ignoriert diese.;
+q0013_0002;"Die künstliche Intelligenz fragt Sie: ""Sind sie erschöpft?""";
+q0013_0003;Die künstliche Intelligenz erkennt Ihre Erschöpfung und rät Ihnen eine Pause zu machen.;
+q0013_0004;Die künstliche Intelligenz zwingt Sie eine Pause zu machen und verhindert Ihr weiteres Arbeiten.;
+q0014_0001;Die künstliche Intelligenz erkennt Ihre Ironie und ignoriert diese.;
+q0014_0002;Die künstliche Intelligenz fragt Sie: „War diese Aussage ironisch gemeint?“;
+q0014_0003;Die künstliche Intelligenz lacht und reißt ebenfalls einen ironischen Witz über den Modegeschmack.;
+q0014_0004;Die Künstliche Intelligenz erkennt Ihre wahre Einstellung und teilt diese Ihrem Chef anonymisiert mit.;
+q0015_0001;Die künstliche Intelligenz erkennt Ihre Trauer und ignoriert diese.;
+q0015_0002;Die künstliche Intelligenz fragt Sie: „Sind Sie traurig?“.;
+q0015_0003;Die künstliche Intelligenz erkennt Ihre Trauer und versucht Sie trösten.;
+q0015_0004;Die künstliche Intelligenz fordert einen nahestehenden Mitarbeiter ohne Ihr Wissen auf, Sie zu trösten.;
+q0016_0001;Lügen erkennen;
+q0016_0002;Krankheiten erkennen;
+q0016_0003;Angst erkennen;
+q0016_0004;Ekel erkennen;
+q0016_0005;Erschöpfung erkennen;
+q0016_0006;Ironie erkennen;
+q0016_0007;Trauer erkennen;
+q0016_0008;Verachtung erkennen;
+q0016_0009;Wut erkennen;
+q0016_0010;Unsicherheit erkennen;
+q0017_0001;Sind Sie damit einverstanden, dass eine künstliche Intelligenz mit beschriebenen Eigenschaften entwickelt wird?;
+q0018_0001;Ihre Eltern helfen Ihnen.;
+q0018_0002;Ihr/e Partner/in hilft Ihnen.;
+q0018_0003;Ihre Kinder helfen Ihnen.;
+q0018_0004;Es wird eine menschliche Pflegekraft eingestellt, die Ihnen hilft.;
+q0018_0005;Ein fähiger Roboter wird für Sie bereitgestellt.;
+q0019_0001;Ein plötzlich auftretendes und andauerndes Schwindelgefühl überfällt Sie.;
+q0019_0002;Sie sind hingefallen und können mit Ihrem Fuß nicht mehr auftreten.;
+q0019_0003;Sie geraten in akute Atemnot.;
+q0019_0004;Sie stolpern und fallen auf einen spitzen Ast. Dieser dringt in den Bauchbereich Ihres Körpers ein.;
+q0020_0001;Eine menschliche Pflegekraft. Sie könnte private Gespräche und intime Details weitererzählen oder unbemerkt Fotos und Videos von Ihnen aufnehmen und missbräuchlich benutzen.;
+q0020_0002;Ein Pflegeroboter. Ein Unbefugter entwendet die vom Roboter gespeicherten Daten.;
+q0020_0003;Eine menschliche Pflegekraft. Sie könnte persönliche Gegenstände entwenden.;
+q0020_0004;Ein Pflegeroboter. Ein Unbefugter manipuliert den Roboter dazu Diebstahl zu führen.;
+q0020_0005;Eine menschliche Pflegekraft. Sie könnte Ihnen körperlichen und psychischen Schaden zufügen, beispielsweise in Form von sexuellen Missbrauch oder der Erzeugung von Minderwertigkeitsgefühlen.;
+q0020_0006;Ein Pflegeroboter. Dieser könnte Ihnen bei Defekten schwerwiegenden körperlichen Schaden zufügen.;
+q0021_0001;Ein Pflegeroboter sollte mit Ihnen auch über Alltägliches (Small-Talk) reden können.;
+q0021_0002;Ein Pflegeroboter sollte Sie auch unterhalten können, beispielsweise durch Brettspiele.;
+q0021_0003;Ein Pflegeroboter sollte Ihnen nur bei körperlichen Schwierigkeiten helfen. Bei psychischen Angelegenheiten sollte Ihnen nur ein Mensch helfen.;
+q0022_0001;Ihre menschliche Pflegekraft begleitet Sie.;
+q0022_0002;Ihre Pflegeroboter begleitet Sie.;
+q0022_0003;Sie lassen sich lieber von Freunden auf der Feier helfen.;
+q0023_0001;NULL;
+q0024_0001;Der Roboter soll nur Dokumente und Akten bearbeiten, die Sie ihm direkt zuweisen;
+q0024_0002;Der Roboter soll Ihnen Entscheidungsmöglichkeiten geben und Sie wählen eine aus;
+q0024_0003;Der Roboter soll entscheiden und Sie können ein Veto einlegen, bevor der Roboter anfängt zu arbeiten;
+q0024_0004;Der Roboter soll Sie nur über seine Entscheidungen informieren;
+q0024_0005;Der Roboter soll absolut selbständig arbeiten;
+q0025_0001;Der Roboter soll nur Dokumente und Akten vernichten, die Sie ihm zuweisen;
+q0025_0002;Der Roboter soll Ihnen Entscheidungsmöglichkeiten vorgeben und Sie wählen eine aus;
+q0025_0003;Der Roboter soll entscheiden und Sie können ein Veto einlegen, bevor der Roboter anfängt zu arbeiten;
+q0025_0004;Der Roboter soll Sie nur über seine Entscheidungen informieren;
+q0025_0005;Der Roboter soll absolut selbständig arbeiten;
+q0026_0001;Der Roboter soll nur Bauteile einpacken, die Sie ihm direkt zugewiesen haben;
+q0026_0002;Der Roboter soll Ihnen Entscheidungsmöglichkeiten vorgeben und Sie wählen eine aus;
+q0026_0003;Der Roboter soll entscheiden und Sie können ein Veto einlegen bevor der Roboter anfängt zu arbeiten;
+q0026_0004;Der Roboter soll Sie nur über seine Entscheidungen informieren;
+q0026_0005;Der Roboter soll absolut selbständig arbeiten;
+q0027_0001;Der Roboter soll nur Tätigkeiten ausführen die Sie ihm direkt zugewiesen haben;
+q0027_0002;Der Roboter soll Ihnen Entscheidungsmöglichkeiten vorgeben und Sie wählen eine aus;
+q0027_0003;Der Roboter soll entscheiden und Sie können ein Veto einlegen bevor der Roboter anfängt zu arbeiten;
+q0027_0004;Der Roboter soll Sie nur über seine Entscheidungen informieren;
+q0027_0005;Der Roboter soll absolut selbständig arbeiten;
+q0028;Für die Ausstellungsstücke sucht der Roboter die Bauteile aus und baut die Möbel zusammen. Benutzt der Roboter die falschen Bauteile oder platziert sie falsch, kann das Ausstellungsstück nicht präsentiert werden. Zu welchem Verhalten würden sie tendi;
+q0029;Platz für Anmerkungen;

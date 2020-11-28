@@ -4,7 +4,8 @@
 \name{anova_phone}
 \alias{anova_phone}
 \title{A dataset containing artificial data to demonstrate variance of analysis visually}
-\format{An object of class \code{"data.frame"}
+\format{
+An object of class \code{"data.frame"}
 \describe{
 \item{whatsapp}{How many whatsapp messages a user sends}
 \item{textmessage}{How many text messages a users sends}
@@ -12,7 +13,8 @@
 \item{user}{The user name.}
 \item{gender}{The gender of the user}
 \item{age}{The age of the user.}
-}}
+}
+}
 \source{
 Data was self generated.
 }

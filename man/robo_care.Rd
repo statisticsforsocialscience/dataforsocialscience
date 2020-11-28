@@ -4,7 +4,8 @@
 \name{robo_care}
 \alias{robo_care}
 \title{A dataset containing survey results on the acceptance of robot care}
-\format{An object of class \code{"tibble"}
+\format{
+An object of class \code{"tibble"}
 \describe{
 \item{age}{Age of the participant}
 \item{gender}{Gender of the participant}
@@ -17,7 +18,8 @@
 \item{cse}{Self-efficacy with regards to computerized systems. Beier (1999)}
 \item{automation_tendency}{The tendency to favor automation over manually doing things.}
 \item{care_experience}{Has the participant made direct or indirect experience in caring for a person.}
-}}
+}
+}
 \source{
 Data was self-collected at the RWTH Aachen University.
 }
@@ -31,7 +33,7 @@ The sample is not representative.
 }
 \examples{
 library(ggplot2)
-\donttest{ggplot(robo_care) + aes(cse, robot_care_pref) +
+\donttest{ggplot(robo_care) + aes(cse, care_pref_robo) +
        geom_jitter(width = 0.1, height = 0, alpha = 0.5)}
 }
 \references{
