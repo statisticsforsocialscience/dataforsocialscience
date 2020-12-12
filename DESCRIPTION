@@ -1,6 +1,6 @@
 Package: dataforsocialscience
 Title: This is a collection of data sets for social science studies
-Version: 0.1.0
+Version: 0.3.0
 Authors@R: 
     person(given = "André",
            family = "Calero Valdez",
@@ -10,10 +10,11 @@ Description: The goal of dataforsocialscience is to bundle a set of data sets th
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 2.10)
+Depends: R (>= 3.10)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     tibble,
     ggplot2,
-    magrittr
+    magrittr,
+    hcictools (>= 1.0)
