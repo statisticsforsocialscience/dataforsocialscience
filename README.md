@@ -13,7 +13,7 @@ as follows:
 
 ``` r
 if(!require(remotes)){
-  install.packages(remotes)
+  install.packages("remotes")
 } 
 remotes::install_github("statisticsforsocialscience/dataforsocialscience")
 ```
