@@ -17,4 +17,6 @@ Imports:
     tibble,
     ggplot2,
     magrittr,
-    hcictools (>= 1.0)
+    hcictools (>= 1.0.1)
+Remotes:  
+    github::statisticsforsocialscience/hcictools
