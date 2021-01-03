@@ -19,6 +19,8 @@ robo_care_labelled <- robo_care_raw %>% hcictools::auto_score("KUT") %>%
   auto_score("CAREX") %>%
   auto_score("CAMCON")
 
+# correct items that are detected with inverse direction
+robo_care_labelled <- robo_care_labelled %>% mutate(AUTOT = 7 - AUTOT)
 
 usethis::use_data(robo_care_labelled, overwrite = TRUE)
 
